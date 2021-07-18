@@ -2,8 +2,8 @@ import pandas as pd
 import smtplib
 
 my_name = "anuj bhor"
-my_email = "ravabhoir3@gmail.com"
-my_password = "anujb109$"
+my_email = ""
+my_password = ""
 
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.ehlo()
